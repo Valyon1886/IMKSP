@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.xj.anylogic.engine.al3d">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/exported/com.xj.anylogic.engine.al3d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exported/com.xj.anylogic.engine.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exported/com.xj.anylogic.engine.sa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exported/model.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
