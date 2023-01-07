@@ -1,8 +1,9 @@
-package com.example.exchange3;
+package com.example.materials;
+
 
 import com.xj.anylogic.engine.Engine;
-import exchage.CustomExperiment;
-import exchage.Main;
+import materialPrediction.CustomExperiment;
+import materialPrediction.Main;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -14,13 +15,12 @@ public class AnyLogicService {
     Main main;
 
     void initModel(UserInput userInput) {
-        Random rand = new Random(System.currentTimeMillis());
-        CustomExperiment s = new exchage.CustomExperiment(null);
+        CustomExperiment s = new CustomExperiment(null);
         engine = s.createEngine();
-        engine.setDefaultRandomGenerator(rand);
+        engine.setDefaultRandomGenerator(new Random(System.currentTimeMillis()));
         main = new Main(engine, null, null);
         main.setParametersToDefaultValues();
-        main.setDefaultRandomGenerator(rand);
+        main.setDefaultRandomGenerator(new Random(System.currentTimeMillis()));
         engine.start(main);
         engine.setRealTimeMode(false);
 

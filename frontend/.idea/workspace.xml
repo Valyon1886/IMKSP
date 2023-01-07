@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c4afa7c-7359-4f8e-b513-495d5a841120" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../exchange3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.al3d.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.nl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.sa.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/exchage3.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/anylogicruntimelicense.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/apache-license-2.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/apache-poi-NOTICE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/jogl-sun-bsd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/jogl-swt-bsd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/lgpl-2.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/openmap-license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/model.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/AnyLogicInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/AnyLogicService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/Exchange3Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/ExchangeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exchange3/src/test/java/com/example/exchange3/Exchange3ApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="0c4afa7c-7359-4f8e-b513-495d5a841120" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
