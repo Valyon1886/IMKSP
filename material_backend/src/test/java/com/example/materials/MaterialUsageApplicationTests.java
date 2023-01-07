@@ -1,4 +1,4 @@
-package com.example.exchange3;
+package com.example.materials;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

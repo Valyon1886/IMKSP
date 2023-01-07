@@ -1,4 +1,4 @@
-package com.example.material;
+package com.example.materials;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;

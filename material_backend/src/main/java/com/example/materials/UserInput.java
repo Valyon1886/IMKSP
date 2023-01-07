@@ -1,4 +1,4 @@
-package com.example.material;
+package com.example.materials;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
