@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="exportExchange6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/model.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com.xj.anylogic.engine.sa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com.xj.anylogic.engine.nl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com.xj.anylogic.engine.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
