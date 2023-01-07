@@ -1,0 +1,50 @@
+body {
+    background: url("merry-christmas-decoration-wood-fir-tree-novyi-god-rozhdestv.png") center fixed;
+    font-family: Times New Roman;
+    background-size: cover;
+}
+.block2 {
+    /*background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);*/
+
+}
+
+.App{
+    background-color: rgba(129, 93, 65, 0.5);
+    /*background-color: rgba(82, 175, 114, 0.5);*/
+    padding-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.btn1{
+    box-shadow:
+            inset 0 3px 2px rgba(255,255,255,.22),
+            inset 0 -3px 2px rgba(0,0,0,.17),
+            inset 0 20px 10px rgba(255,255,255,.12),
+            0 0 4px 1px rgba(0,0,0,.1),
+            0 3px 2px rgba(0,0,0,.2);
+}
+
+.title{
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    color: #f5e4e2;
+    text-shadow: 0 0 80px rgb(222, 188, 166);
+}
+
+.text2{
+    color: #f5e4e2;
+    text-shadow: 0 0 80px rgb(44, 37, 33);
+}
+
+.card{
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow:
+            inset 0 2px 3px rgba(255,255,255,0.3),
+            inset 0 -2px 3px rgba(0,0,0,0.3),
+            0 1px 1px rgba(255,255,255,0.9);
+    background-image: linear-gradient(to bottom, rgba(4, 145, 245, 0.4) 55%, rgba(224, 33, 78, 0.51));
+}
