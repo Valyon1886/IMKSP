@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
-public class AnyLogicInput {
+public class UserInput {
     Integer maxMaterialCount;
     Integer materialPerDay;
     Integer days;

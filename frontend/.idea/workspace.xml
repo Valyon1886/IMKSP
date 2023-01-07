@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c4afa7c-7359-4f8e-b513-495d5a841120" name="Changes" comment="" />
+    <list default="true" id="0c4afa7c-7359-4f8e-b513-495d5a841120" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../exchange3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.al3d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.nl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/com.xj.anylogic.engine.sa.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/exchage3.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/anylogicruntimelicense.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/apache-license-2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/apache-poi-NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/jogl-sun-bsd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/jogl-swt-bsd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/lgpl-2.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/lib/openmap-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/exchage3 Exported1/model.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/AnyLogicInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/AnyLogicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/Exchange3Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/java/com/example/exchange3/ExchangeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange3/src/test/java/com/example/exchange3/Exchange3ApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,16 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Folder/StudyProjects/anylogic/IMKSP/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -47,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672917297593</updated>
       <workItem from="1672917303284" duration="17196000" />
+      <workItem from="1673102656491" duration="610000" />
     </task>
     <servers />
   </component>
