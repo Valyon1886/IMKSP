@@ -1,7 +1,5 @@
 package com.example.materials;
 
-
-
 import com.xj.anylogic.engine.Engine;
 import materialPrediction.CustomExperiment;
 import materialPrediction.Main;
