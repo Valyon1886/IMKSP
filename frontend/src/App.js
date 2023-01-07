@@ -11,10 +11,10 @@ import {
     Title,
     Tooltip
 } from "chart.js";
-import {Line} from 'react-chartjs-2';
 import {MaterialGrid} from "./components/MaterialGrid";
 import {MaterialChart} from "./components/MaterialChart";
 import {getMaterialUsage} from "./components/MaterialUsage";
+import {ChartModal} from "./components/ChartModal";
 
 ChartJS.register(
     CategoryScale,
@@ -33,7 +33,8 @@ function App() {
     const [materialPerDay, setMaterialPerDay] = useState(0);
     const [days, setDays] = useState(0);
     const [showModal, setShowModal] = useState(false);
-    const [data4, setData4] = useState({
+    const [chartReference, options] = MaterialChart()
+    const [chartData, setChartData] = useState({
         labels: Array.from(Array(15).keys()),
         datasets: [
             {
@@ -44,9 +45,7 @@ function App() {
             },
         ],
     });
-    const [chartReference, options2] = MaterialChart()
 
-    // Add/Remove checked item from list
     const handleCheck = (event, name) => {
         let updatedList = [...checked];
         if (event.target.checked) {
@@ -103,7 +102,7 @@ function App() {
                                 days: days,
                                 listOfMaterials: listOfMaterials
                             },
-                            set_data4: setData4,
+                            set_chart_data: setChartData,
                             set_checked: setChecked,
                             set_days_left: setDays
                         });
@@ -113,29 +112,11 @@ function App() {
                 </button>
             </form>
 
-            <Modal
-                show={showModal}
-                size="5-xl"
-                popup={true}
-                onClose={() => {
-                    setShowModal(false);
-                    window.location.reload(false);
-                }
-                }
-            >
-                <Modal.Header>
-                </Modal.Header>
-                <Modal.Body>
-                    <div className="text-center">
-                        <div style={{height: 300}}>
-                            <Line id="bestLine" ref={chartReference} options={options2} height="25vh" data={data4}/>
-                        </div>
-                        <label htmlFor="minmax-range"
-                               className="block mb-2 text-2xl font-medium text-gray-900  dark:text-white">Осталось
-                            дней: {days}</label>
-                    </div>
-                </Modal.Body>
-            </Modal>
+            <ChartModal showModal={showModal}
+                        setShowModal={setShowModal}
+                        chartReference={chartReference}
+                        options={options}
+                        chartData={chartData}/>
         </div>
     );
 }

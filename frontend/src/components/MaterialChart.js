@@ -1,7 +1,6 @@
 import React from "react";
 
 export function MaterialChart() {
-
     const chartReference = React.createRef();
     const options = {
         responsive: true,

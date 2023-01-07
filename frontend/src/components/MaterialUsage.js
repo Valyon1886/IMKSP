@@ -7,7 +7,7 @@ export function getMaterialUsage(props) {
             console.log(props.data.listOfMaterials)
             // setListOfMaterials([])
             props.set_checked([])
-            props.set_data4(
+            props.set_chart_data(
                 {
                     labels: Array.from(Array(100).keys()),
                     datasets: [
